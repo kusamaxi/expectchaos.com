@@ -1,6 +1,6 @@
 import type { Component } from 'solid-js';
 import MatrixRain from './components/MatrixRain';
-import Audio from './components/Audio';
+import ExpectChaos from './components/ExpectChaos';
 
 
 const App: Component = () => {
@@ -8,7 +8,7 @@ const App: Component = () => {
     <>
       <main class="margin-0 w-full h-full overflow-hidden">
         <MatrixRain />
-        <Audio />
+        <ExpectChaos />
       </main>
     </>
   );
