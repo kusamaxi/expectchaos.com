@@ -51,11 +51,13 @@ const MatrixRain = () => {
   return (
     <>
       <canvas
-        class="fixed inset-0"
+        class="bg-black fixed z--1 inset-0"
         ref={canvas}
         width={width()}
         height={height()}
-      ></canvas>
+      >
+        Your browser does not support the canvas element.
+      </canvas>
     </>
   );
 };
